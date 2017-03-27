@@ -48,7 +48,7 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 **Day 1**: Setup all necessary Node modules, including getting webpack up. Create `webpack.config.js` as well as `package.json`. Write a basic entry file and the bare bones of all 3 scripts outlined above.  Learn the basics of `Easel.js` and see if it would be beneficial to have for my app. Goals for the day:
 
-- Get a green bundle with `webpack`
+- Get `webpack` working
 - Learn more about `Canvas`, `Sprites` and `Easel.js`
 - Find/create animations to be used for components, characters, background, and environment
 
@@ -57,15 +57,14 @@ In addition to the webpack entry file, there will be three scripts involved in t
 - Render a simple, side-scrolling gameplay environment to `Canvas` within the `game.js`; Be able to add the `Bee` onto screen
 - Complete the `bee.js` module (constructor, collision functions); should be able to jump by using the spacebar
 
-**Day 3**: Be able to render the components onto the screen. Bee should be able to jump and collide with coins to score or obstacles which will end the game.
+**Day 3**: Be able to render the components onto the screen. `Bee` should be able to jump and collide with coins to score or obstacles which will end the game.
 
 - Finish creating the different components (coins, obstacles, etc.) and handle logic of their movements
 - Have a score to keep track of distance traveled by the `Bee`
-- `Bee` should be able to collect coins and game will end when it runs into an obstacle
 
-**Day 4**: Install the controls for the user to interact with the game. Style the frontend, making it polished and professional.  Goals for the day:
+**Day 4**: Install the controls for the user to interact with the game. Style the frontend, making it polished and professional. Goals for the day:
 
-- Create game controls for START and STOP
+- Create game controls for START, PAUSE, and RESTART
 - Have a styled `Canvas`, nice looking controls and title
 - Have an increased level of difficulty if score is over a certain amount, keep it challenging
 - Add special power-ups and/or animations to the background
