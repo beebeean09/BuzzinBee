@@ -3,8 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Buzzin Bee</title>
+    <style>
+      canvas {
+        position: absolute;
+        background: #6de2e3;
+        top: 13%;
+        left: 26%;
+      }
+      h1 {
+        font-size: 30px;
+        font-family: arial;
+        text-align: center;
+      }
+
+    </style>
   </head>
-  <body>
+  <body >
+    <div className="main-container">
+      <h1>Buzzin Bee</h1>
+      <canvas id="canvas" width="700" height="500">
+        Your browser does not support canvas. Please try again.
+      </canvas>
+    </div>
+    <script type="application/javascript" src="lib/bundle.js"></script>
+    <script src="lib/background.js"></script>
 
   </body>
 </html>
