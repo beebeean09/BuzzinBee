@@ -1,6 +1,6 @@
-canvas {
+canvas, img {
   position: absolute;
-  background: #6de2e3;
+  /*background: #6de2e3;*/
   top: 13%;
   left: 26%;
 }

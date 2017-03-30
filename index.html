@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Buzzin Bee</title>
   </head>
-  <body >
+  <body>
+    <img src="./images/cloudy-sky-2.jpg" width="700" height="600">
     <canvas id="canvas" width="700" height="600"></canvas>
     <div className="main-container">
       <h1>Buzzin Bee</h1>
@@ -17,15 +18,11 @@
     <div style="display:none;">
       <img id="bee" src="./images/bee2.png" width="40" height="40">
     </div>
+    <div style="display:none;">
+      <img id="net" src="./images/little-fishing-net-clipart.png" width="40" height="40">
+    </div>
 
-    <script>
-      $(document).keydown(function(e) {
-        switch(e.which) {
-          case 32: console.log('SPACE');; break; // spacebar is 32
-         }
-        e.preventDefault();
-     });
-    </script>
+
 
     <link rel="stylesheet" href="./assets/buzzin_bee.css">
   </body>
