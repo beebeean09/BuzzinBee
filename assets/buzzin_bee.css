@@ -1,0 +1,11 @@
+canvas {
+  position: absolute;
+  background: #6de2e3;
+  top: 13%;
+  left: 26%;
+}
+h1 {
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+}
