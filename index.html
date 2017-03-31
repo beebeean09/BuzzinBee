@@ -4,10 +4,27 @@
     <meta charset="utf-8">
     <title>Buzzin Bee</title>
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">  </head>
   <body >
-    <h1>Buzzin Bee</h1>
-    <canvas id="canvas" width="700" height="390"></canvas>
+    <div>
+      <p>Welcome to Buzzin' Bee!
+        Our bee, Barry, is on the run!
+        Help him escape by dodging the nets
+        and collecting honey on the way.
+        How far can you buzz before getting caught? </p>
+    </div>
+    <div>
+      <h1>Buzzin Bee</h1>
+      <canvas id="canvas" width="700" height="390"></canvas>
+      <div id="score"></div>
+    </div>
+    <div class="start-control">
+      <button class="start-button">Start</button>
+    </div>
+    <div class="restart-control">
+      <button class="restart-button">Restart</button>
+    </div>
+
 
     <!-- <div className="main-container"> -->
     <!-- </div> -->
@@ -30,6 +47,9 @@
     <div style="display:none;">
       <img id="honey" src="./images/honey.png" width="40" height="40">
     </div>
+    <!-- <div style="display:none;">
+      <img id="background" src="./images/cloudy-sky-2.jpg" width="700" height="500">
+    </div> -->
 
 
 

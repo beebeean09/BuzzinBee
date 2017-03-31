@@ -7,14 +7,16 @@ canvas, img {
 
   top: 13%;
   left: 26%;
+  border: 3px dotted #0000a5;
+  margin-bottom: 25px;
 }
 
 body {
 
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
   /*background: url('http://res.cloudinary.com/beebeean09/image/upload/v1490922798/cloudy-sky-cartoon-drawshop-royalty-free-cartoon-vector-stoc-iId75M-clipart_sygpj5.jpg');*/
 
@@ -24,15 +26,32 @@ body {
 h1 {
   /*position: absolute;*/
   font-family: 'Wendy One', sans-serif;
-  display: flex;
   font-size: 47px;
   text-align: center;
   color: #ffe609;
   text-transform: uppercase;
 }
 
-/*.backgroundBlue {
-  background: blue;
-  height: 550;
-  width: 700;
-}*/
+p {
+  display: flex;
+  font-family: 'Signika', sans-serif;  width: 700;
+  height: 147px;
+  width: 200px;
+  border: 1px solid black;
+  background: ghostwhite;
+  margin: 110px 14px;
+  padding: 17px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+#score {
+  display: flex;
+  font-family: 'Signika', sans-serif;  width: 700;
+  font-size: 150px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+}
