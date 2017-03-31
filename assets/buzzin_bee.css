@@ -55,3 +55,25 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+.start-control, .restart-control {
+  display: flex;
+  font-family: 'Signika', sans-serif;  width: 700;
+  height: 50px;
+  width: 200px;
+  border: 1px solid black;
+  background: ghostwhite;
+  margin: 110px 14px;
+  padding: 17px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.start-button, .restart-button {
+  width: 174px;
+  height: 24px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  font-size: 12px;
+}
