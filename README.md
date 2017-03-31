@@ -12,13 +12,24 @@ Buzzin' Bee is a Javascript game inspired by Jetpack Joyride. It features Barry,
 
 ### Collisions
 
-Collisions were checked by using the distance formula to find the distance between two objects, which will help determine whether two objects have collided or not.
+Collisions were checked by using the distance formula to find the distance between two objects, which will help determine whether two objects have collided or not. The methods below were used to compare the objects with each and return results to the Game Class which will decide whether the game has ended (If Barry gets caught by a net) or points get added to the scoreboard (If Barry collects honey).
 
 ![image of home page](images/buzzinbee2.gif)
 
 ```javascript
+// Within Bee, Net, and Honey Classes
 render: function () {
+  isCollidedWith(otherObject) {
+    let pos = [this.x, this.y];
+    let otherObjPos = [otherObject.x, otherObject.y];
+    const objDist = this.distance(pos, otherObjPos);
+    return objDist < (this.radius + otherObject.radius);
+  }
 
+  distance(pos1, pos2) {
+    let sum = Math.pow((pos2[0] - pos1[0]), 2) + Math.pow((pos2[1] - pos1[1]), 2);
+    return Math.sqrt(sum);
+  }
 }
 ```
 
