@@ -5,25 +5,36 @@
     <title>Buzzin Bee</title>
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">  </head>
-  <body >
-    <div>
+  <body>
+    <div class="left">
       <p>Welcome to Buzzin' Bee!
         Our bee, Barry, is on the run!
         Help him escape by dodging the nets
         and collecting honey on the way.
         How far can you buzz before getting caught? </p>
+        <p>Press the 'spacebar' to JUMP.</p>
+    </div>
+    <div class="main">
+      <!-- <div class="main-container"> -->
+        <h1>Buzzin Bee</h1>
+        <div class="canvas-flex">
+          <div class="canvas-relative">
+            <canvas id="background" width="700" height="390"></canvas>
+            <canvas id="canvas" width="700" height="390"></canvas>
+          </div>
+          <div class="score-flex">
+            <div id="score"></div>
+          </div>
+        </div>
+      <!-- </div> -->
     </div>
     <div>
-      <h1>Buzzin Bee</h1>
-      <canvas id="canvas" width="700" height="390"></canvas>
-      <div id="score"></div>
-    </div>
-    <div class="start-control">
-      <button class="start-button">Start</button>
-    </div>
-    <div class="restart-control">
-      <div class="game-over">GAME OVER!</div>
-      <button class="restart-button">Restart</button>
+      <div class="start-control">
+        <button class="start-button">Start</button>
+      </div>
+      <div class="restart-control">
+        <button class="restart-button">Restart</button>
+      </div>
     </div>
 
 

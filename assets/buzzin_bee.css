@@ -1,11 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-container {
+  position: relative;
+}
 
 canvas, img {
-  /*position: absolute;*/
+  position: absolute;
   display: flex;
   align-items: center;
-  background: url('http://res.cloudinary.com/beebeean09/image/upload/v1490922798/cloudy-sky-cartoon-drawshop-royalty-free-cartoon-vector-stoc-iId75M-clipart_sygpj5.jpg');
+  /*background: url('http://res.cloudinary.com/beebeean09/image/upload/v1490922798/cloudy-sky-cartoon-drawshop-royalty-free-cartoon-vector-stoc-iId75M-clipart_sygpj5.jpg');*/
 
-  top: 13%;
+  top: 0;
   left: 26%;
   border: 3px dotted #0000a5;
   margin-bottom: 25px;
@@ -21,6 +31,10 @@ body {
   /*background: url('http://res.cloudinary.com/beebeean09/image/upload/v1490922798/cloudy-sky-cartoon-drawshop-royalty-free-cartoon-vector-stoc-iId75M-clipart_sygpj5.jpg');*/
 
   background: #27afdf;
+}
+
+.left {
+  margin: 91px 14px;
 }
 
 h1 {
@@ -39,7 +53,7 @@ p {
   width: 200px;
   border: 1px solid black;
   background: ghostwhite;
-  margin: 110px 14px;
+  margin: 23px 0;
   padding: 17px;
   text-align: center;
   border-radius: 7px;
@@ -54,10 +68,11 @@ p {
   width: 700px;
   align-items: center;
   justify-content: center;
+  background: ghostwhite;
 }
 
 .start-control, .restart-control {
-  display: flex;
+  /*display: flex;*/
   font-family: 'Signika', sans-serif;  width: 700;
   height: 50px;
   width: 200px;
@@ -76,4 +91,16 @@ p {
   border: 1px solid grey;
   border-radius: 7px;
   font-size: 12px;
+}
+
+.canvas-relative {
+  position: relative;
+}
+
+.canvas-flex {
+  display: flex;
+}
+
+.score-flex {
+  margin-top: 425px;
 }
