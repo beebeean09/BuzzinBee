@@ -73,7 +73,7 @@ p {
 
 .start-control, .restart-control {
   /*display: flex;*/
-  font-family: 'Signika', sans-serif;  width: 700;
+  /*font-family: 'Signika', sans-serif;  width: 700;
   height: 50px;
   width: 200px;
   border: 1px solid black;
@@ -81,16 +81,20 @@ p {
   margin: 110px 14px;
   padding: 17px;
   text-align: center;
-  border-radius: 7px;
+  border-radius: 7px;*/
 }
 
 .start-button, .restart-button {
   width: 174px;
-  height: 24px;
+  height: 33px;
   padding: 5px;
   border: 1px solid grey;
   border-radius: 7px;
-  font-size: 12px;
+  font-size: 17px;
+  margin: 7px 0;
+  background: #ff9886;
+  cursor: pointer;
+  color: floralwhite;
 }
 
 .canvas-relative {
@@ -103,4 +107,16 @@ p {
 
 .score-flex {
   margin-top: 425px;
+}
+
+.controls {
+  font-family: 'Signika', sans-serif;  width: 700;
+  height: 92px;
+  width: 200px;
+  border: 1px solid black;
+  background: ghostwhite;
+  margin: 110px 14px;
+  padding: 17px;
+  text-align: center;
+  border-radius: 7px;
 }
