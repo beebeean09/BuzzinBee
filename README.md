@@ -49,7 +49,7 @@ Below is how I implemented the side-scrolling background image:
 
 Collisions were checked by using the distance formula to find the distance between two objects, which will help determine whether two objects have collided or not. The methods below were used to compare the objects with each and return results to the Game Class which will decide whether the game has ended (If Barry gets caught by a net) or points get added to the scoreboard (If Barry collects honey).
 
-![image of home page](images/buzzinbee-collision.gif)
+![image of collisions](images/buzzinbee-collision.gif)
 
 ```javascript
 // Within Bee, Net, and Honey Classes
