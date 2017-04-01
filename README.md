@@ -14,6 +14,8 @@ Buzzin' Bee is a Javascript game inspired by Jetpack Joyride. It features Barry,
 
 In order to have a side-scrolling background, I created one canvas for the background image and one for all the other objects to be drawn on. The background image is loaded first onto its canvas, while its x-axis is incremented by a value(speed) in a setInterval. Then the images for the other objects are loaded onto a separate canvas afterwards, since I want the objects to be drawn on top of the background. Using CSS, I gave both canvas an absolute position within a relative parent container and gave them the same margins.
 
+![image of side-scrolling](images/buzzinbee-scroll.gif)
+
 Below is how I implemented the side-scrolling background image:
 
 ```javascript
@@ -47,7 +49,7 @@ Below is how I implemented the side-scrolling background image:
 
 Collisions were checked by using the distance formula to find the distance between two objects, which will help determine whether two objects have collided or not. The methods below were used to compare the objects with each and return results to the Game Class which will decide whether the game has ended (If Barry gets caught by a net) or points get added to the scoreboard (If Barry collects honey).
 
-![image of home page](images/buzzinbee2.gif)
+![image of home page](images/buzzinbee-collision.gif)
 
 ```javascript
 // Within Bee, Net, and Honey Classes
@@ -92,7 +94,7 @@ By incrementing by 0.5 AND multiplying the velocity by 0.9 before adding it to t
   }
 ```
 
-![image of gravity](images/buzzinbee1.gif)
+![image of gravity](images/buzzinbee-gravity.gif)
 
 ## Future Directions for the Project
 

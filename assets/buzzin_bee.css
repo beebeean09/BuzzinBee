@@ -32,7 +32,9 @@ body {
 }
 
 .left {
-  margin: 91px 14px;
+  display: flex;
+  flex-direction: column;
+  margin: 101px 14px;
 }
 
 h1 {
@@ -45,22 +47,25 @@ h1 {
 }
 
 p {
-  display: flex;
   font-family: 'Signika', sans-serif;  width: 700;
-  height: 147px;
+  /*height: 147px;*/
   width: 200px;
   border: 1px solid black;
   background: ghostwhite;
-  margin: 23px 0;
+  margin: 10px 0;
   padding: 17px;
   text-align: center;
   border-radius: 7px;
+  /*display: flex;*/
+  justify-content: center;
 }
 
 #score {
   display: flex;
-  font-family: 'Signika', sans-serif;  width: 700;
-  font-size: 150px;
+  font-family: 'Signika', sans-serif;
+  width: 700;
+  font-size: 125px;
+  height: auto;
   border: 1px solid black;
   border-radius: 7px;
   width: 700px;
@@ -107,14 +112,31 @@ p {
   margin-top: 425px;
 }
 
-.controls {
+.right  {
   font-family: 'Signika', sans-serif;  width: 700;
   height: 92px;
   width: 200px;
-  border: 1px solid black;
-  background: ghostwhite;
-  margin: 110px 14px;
+  /*border: 1px solid black;*/
+  /*background: ghostwhite;*/
+  margin: 85px 22px;
   padding: 17px;
   text-align: center;
   border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  height: 0;
+  width: 0;
+  border: 0 solid black;
+  background: ghostwhite;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
