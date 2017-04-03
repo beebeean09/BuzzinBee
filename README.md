@@ -1,6 +1,6 @@
 # Buzzin' Bee
 
-[Buzzin' Bee][live]
+[Live Link][live]
 
 [live]: https://beebeean09.github.io/BuzzinBee/
 
