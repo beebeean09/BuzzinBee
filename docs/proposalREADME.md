@@ -14,7 +14,7 @@ With Buzzin Bee, players will be able to:
 - [ ] Jump up and down using the space bar
   - [ ] Collect objects (honey or power-ups)
   - [ ] Avoid obstacles and attacks
-- [ ] See their score on the board (Kept track by distance)
+- [ ] See their score on the board
 
 In addition, this project will include:
 
