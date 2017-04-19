@@ -9,7 +9,7 @@
   position: relative;
 }
 
-canvas, img {
+canvas, img, .opening {
   position: absolute;
   display: flex;
   align-items: center;
