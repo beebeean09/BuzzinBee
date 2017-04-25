@@ -44,7 +44,12 @@ h1 {
   text-transform: uppercase;
 }
 
-.instructions {
+h2 {
+  font-size: 20px;
+  margin: 3px 0;
+}
+
+.instructions, p {
   font-family: 'Signika', sans-serif;  width: 700;
   width: 200px;
   border: 1px solid black;
