@@ -44,9 +44,8 @@ h1 {
   text-transform: uppercase;
 }
 
-p {
+.instructions {
   font-family: 'Signika', sans-serif;  width: 700;
-  /*height: 147px;*/
   width: 200px;
   border: 1px solid black;
   background: ghostwhite;
@@ -54,8 +53,9 @@ p {
   padding: 17px;
   text-align: center;
   border-radius: 7px;
-  /*display: flex;*/
   justify-content: center;
+  /*height: 147px;*/
+  /*display: flex;*/
 }
 
 #score {
