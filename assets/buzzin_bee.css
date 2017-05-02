@@ -32,15 +32,16 @@ body {
 .left {
   display: flex;
   flex-direction: column;
-  margin: 101px 14px;
+  margin: 123px 14px;
 }
 
 h1 {
-  font-family: 'Wendy One', sans-serif;
+  /*font-family: 'Wendy One', sans-serif;*/
+  font-family: 'Permanent Marker', cursive;
   font-size: 47px;
   text-align: center;
-  color: #ffe609;
-  text-transform: uppercase;
+  /*color: #ffe609;*/
+  color: rgb(255, 252, 40);
 }
 
 h2 {
@@ -49,12 +50,14 @@ h2 {
 }
 
 .instructions, p {
-  font-family: 'Signika', sans-serif;  width: 700;
+  font-family: 'Sintony', sans-serif;
+
+  /*font-family: 'Signika', sans-serif;  width: 700;*/
   width: 200px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background: ghostwhite;
-  margin: 10px 0;
-  padding: 17px;
+  margin: 7px 0;
+  padding: 14px;
   text-align: center;
   border-radius: 7px;
   justify-content: center;
@@ -64,7 +67,7 @@ h2 {
 
 #score {
   display: flex;
-  font-family: 'Signika', sans-serif;
+  font-family: 'Sintony', sans-serif;
   width: 700;
   font-size: 100px;
   height: auto;
@@ -107,12 +110,12 @@ h2 {
 }
 
 .right  {
-  font-family: 'Signika', sans-serif;  width: 700;
+  font-family: 'Sintony', sans-serif;
   height: 92px;
   width: 200px;
   /*border: 1px solid black;*/
   /*background: ghostwhite;*/
-  margin: 85px 22px;
+  margin: 106px 22px;
   padding: 17px;
   text-align: center;
   border-radius: 7px;
@@ -122,6 +125,7 @@ h2 {
 }
 
 .controls {
+  font-family: 'Sintony', sans-serif;
   height: 0;
   width: 0;
   border: 0 solid black;
