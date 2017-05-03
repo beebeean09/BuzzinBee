@@ -54,10 +54,11 @@ h2 {
 
   /*font-family: 'Signika', sans-serif;  width: 700;*/
   width: 200px;
+  font-size: 14px;
   /*border: 1px solid black;*/
   background: ghostwhite;
   margin: 7px 0;
-  padding: 14px;
+  padding: 13px;
   text-align: center;
   border-radius: 7px;
   justify-content: center;
